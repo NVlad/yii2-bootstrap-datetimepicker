@@ -49,7 +49,7 @@ class DatetimepickerWidget extends InputWidget{
         }
         // Init default clientOptions
         $this->clientOptions = ArrayHelper::merge([
-            'language'=>\Yii::$app->language,
+            'locale'=>\Yii::$app->language,
             'format'=>$this->momentDatetimeFormat
         ], $this->clientOptions);
 
