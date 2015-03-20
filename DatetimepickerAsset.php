@@ -6,7 +6,7 @@
  * Time: 4:40 PM
  */
 
-namespace trntv\yii\datetimepicker;
+namespace nvlad\yii\datetimepicker;
 
 
 use yii\web\AssetBundle;

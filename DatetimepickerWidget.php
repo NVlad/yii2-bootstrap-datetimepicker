@@ -6,7 +6,7 @@
  * Time: 4:38 PM
  */
 
-namespace trntv\yii\datetimepicker;
+namespace nvlad\yii\datetimepicker;
 
 use yii\base\InvalidConfigException;
 use yii\helpers\ArrayHelper;
