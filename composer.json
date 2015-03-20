@@ -1,5 +1,5 @@
 {
-    "name": "trntv/yii2-bootstrap-datetimepicker",
+    "name": "nvlad/yii2-bootstrap-datetimepicker",
     "description": "Datetimepicker widget for Yii2 framework",
     "type": "yii2-extension",
     "keywords": ["yii2","extension","datetimepicker","bootstrap","widget"],
@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "trntv\\yii\\datetimepicker\\": ""
+            "nvlad\\yii\\datetimepicker\\": ""
         }
     }
 }
