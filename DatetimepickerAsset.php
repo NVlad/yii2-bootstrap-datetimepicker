@@ -11,7 +11,8 @@ namespace nvlad\yii\datetimepicker;
 
 use yii\web\AssetBundle;
 
-class DatetimepickerAsset extends AssetBundle{
+class DatetimepickerAsset extends AssetBundle
+{
 
     public function init(){
         $this->sourcePath = __DIR__.'/assets';
@@ -23,8 +24,8 @@ class DatetimepickerAsset extends AssetBundle{
     ];
 
     public $js = [
-        'moment/min/moment-with-langs.min.js',
-        'eonasdan-bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js',
+        'moment/min/moment-with-locales.js',
+        'eonasdan-bootstrap-datetimepicker/src/js/bootstrap-datetimepicker.js',
     ];
 
     public $depends = [

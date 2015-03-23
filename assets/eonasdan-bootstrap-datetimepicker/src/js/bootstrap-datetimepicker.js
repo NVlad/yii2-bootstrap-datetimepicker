@@ -1326,7 +1326,7 @@
             }
 
             options.extraFormats = formats;
-            if (parseFormats) {
+            if (options.extraFormats) {
                 initFormatting(); // reinit formatting
             }
             return picker;
