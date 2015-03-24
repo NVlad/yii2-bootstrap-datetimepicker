@@ -24,7 +24,7 @@ class DatetimepickerAsset extends AssetBundle
     ];
 
     public $js = [
-        'moment/min/moment-with-locales.js',
+        'moment/min/moment-with-locales.min.js',
         'eonasdan-bootstrap-datetimepicker/src/js/bootstrap-datetimepicker.js',
     ];
 
